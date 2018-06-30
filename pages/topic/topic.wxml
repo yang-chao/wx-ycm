@@ -1,0 +1,7 @@
+<!--topic/topic.wxml-->
+<text>{{question}}</text>
+<view class='answer_container'>
+  <view wx:for='{{answers}}' wx:for-item="answer">
+    <text>{{answer}}</text>
+  </view>
+</view>
