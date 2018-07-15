@@ -1,1 +1,22 @@
 /* topic/topic.wxss */
+.answer_container {
+  background-image: url("../../res/img/bg_answer_container.png");
+  width: 70%;
+  padding: 90rpx;
+}
+.question {
+  color: #272727;
+  font-size: 30rpx;
+}
+.answer {
+  height: 66rpx;
+  color: #383838;
+  margin-top: 34rpx;
+  font-size: 26rpx;
+  border: 1rpx #b1b1b1 solid;
+  border-radius: 36rpx;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 66rpx;
+  padding-left: 43rpx;
+}
